@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class MessageConsumer {
 
-    public static final String QUEUE = "https://sqs.us-east-1.amazonaws.com/559111842637/MyFIFOQueue.fifo";
+    public static final String QUEUE = "MyFIFOQueue.fifo";
 
     @SqsListener(value = QUEUE,deletionPolicy = SqsMessageDeletionPolicy.ON_SUCCESS)
     public void receive(String message){
