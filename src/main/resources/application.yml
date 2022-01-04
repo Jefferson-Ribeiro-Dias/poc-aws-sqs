@@ -13,7 +13,7 @@ cloud:
     stack:
       auto: false
     credentials:
-      access-key: AKIAYELNJVNGQ64XO37E
-      secret-key: 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
+      access-key: xxxxxxxxxxx
+      secret-key: xxxxxxxxxxx
     end-point:
-      uri: https://sqs.us-east-1.amazonaws.com/559111842637/MyFIFOQueue.fifo
+      uri: xxxxxxxxxxx
